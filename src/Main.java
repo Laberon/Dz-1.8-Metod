@@ -11,7 +11,7 @@ public class Main {
     }
 
     public static void  printSeparator() {
-        System.out.println("++++++++++++");
+        System.out.println("»»»»»»»»»»»»»»»»»»»»»»»»");
     }
     public static int selectOs (int clientsOs, int clientDeviceYear){
         if (clientsOs==0 && clientDeviceYear<2015) {
