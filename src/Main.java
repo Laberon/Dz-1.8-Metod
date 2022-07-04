@@ -26,7 +26,7 @@ public class Main {
         return clientsOs;
     }
 
-    public static int sumDay(char deliveryDistance) {
+    public static int sumDay(int deliveryDistance) {
         int deliverDay=1;
         if (deliveryDistance>20){
             deliverDay++;
@@ -51,6 +51,6 @@ public class Main {
 
         Scanner userDistance = new Scanner(System.in);
         System.out.println("Введите колличество километров: ");
-        char enterDistance = (char) sumDay((char) userDistance.nextInt());
+        int enterDistance = sumDay(userDistance.nextInt());
     }
 }
